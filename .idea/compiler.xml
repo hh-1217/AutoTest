@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Chapter6" />
         <module name="Chapter5" />
+        <module name="Chapter7" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter5" target="8" />
+      <module name="Chapter6" target="8" />
+      <module name="Chapter7" target="8" />
+      <module name="Chapter8" target="8" />
+      <module name="pom.xml" target="8" />
+      <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
